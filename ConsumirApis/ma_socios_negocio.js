@@ -101,7 +101,7 @@ var datosSociosjson = JSON.stringify(datosSocios);
             $('#FECHA_CREADO').val(MiItems[0].FECHA_CREADO);
             $('#ESTADO').val(MiItems[0].ESTADO);
             $('#TELEFONO').val(MiItems[0].TELEFONO);
-            var btnactualizar = '<input type="submit" id="btn_actualizar" onclick="ActualizarSocio('+MiItems[0].ID_SOCIO+')" value="Actualizar Proveedor" class="btn btn-primary"></input>';
+            var btnactualizar = '<input type="submit" id="btn_actualizar" onclick="ActualizarSocio('+MiItems[0].ID_SOCIO+')" value="Actualizar Socio" class="btn btn-primary"></input>';
             $('.button').html(btnactualizar);
         }
     })
